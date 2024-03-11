@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: populate_schema_05-BEGIN
+      author: torkov
+  - include:
+      file: populate_schema_05.sql
+      relativeToChangelogFile: true

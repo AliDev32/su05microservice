@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changeset/create-schema_05.yaml
+  - include:
+      file: db/changelog/changeset/populate-schema_05.yaml

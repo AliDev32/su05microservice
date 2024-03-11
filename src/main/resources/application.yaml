@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: ali.su.cft2j02.task04
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cft2j02
+    username: pguser
+    password: pass
+    driver-class-name: org.postgresql.Driver
+data-files:
+  location: C:/tor/workspace/java/works_bc_cursCFT2J_02/su04spring/datafiles/
+  date-format: "dd/MM/yyyy HH:mm:ss"
+log-files:
+  location: C:/tor/workspace/java/works_bc_cursCFT2J_02/su04spring/logfiles/
