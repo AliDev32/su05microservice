@@ -14,19 +14,19 @@
 
 Описание принципов работы ресурсных методов указаны в приложенных файлах заданий:
 
-— ПР_СОЗДАНИЕ_POST_corporate_settlement_instance_create.docx
+— [ПР_СОЗДАНИЕ_POST_corporate_settlement_instance_create.docx](./res/materials/ПР_СОЗДАНИЕ_POST_corporate_settlemet_account_create.docx)
 
-— ЭП_СОЗДАНИЕ_POST_corporate_settlement_instance_create.docx
+— [ЭП_СОЗДАНИЕ_POST_corporate_settlement_instance_create.docx](./res/materials/ЭП_СОЗДАНИЕ_POST_corporate_settlemet_instance_create.docx)
 
 Кроме того, к работе приложено:
 
-— Описание схемы данных
+— [Описание схемы данных](./res/materials/DB/схема_БД.jpg)
 
-— Список справочников
+— [Список справочников](./res/materials/DB/список_справочников.docx)
 
-— Пример скрипта создания БД
+— [Пример скрипта создания БД](./res/materials/DB/скрипт_создания_БД.sql)
 
-— Пример скрипта заполнения БД
+— [Пример скрипта заполнения БД](./res/materials/DB/скрипт_заполнения_БД.sql)
 
 ### 2. Требования к решению
 
@@ -46,11 +46,11 @@
 
 <br/>
 
-***Материалы к заданию:***
-
-- [ПР_СОЗДАНИЕ_POST_corporate_settlemet_account_create.docx](./res/materials/ПР_СОЗДАНИЕ_POST_corporate_settlemet_account_create.docx)
-- [ЭП_СОЗДАНИЕ_POST_corporate_settlemet_instance_create.docx](./res/materials/ЭП_СОЗДАНИЕ_POST_corporate_settlemet_instance_create.docx)
-- [схема_БД.jpg](./res/materials/DB/схема_БД.jpg)
-- [список_справочников.docx](./res/materials/DB/список_справочников.docx)
-- [скрипт_создания_БД.sql](./res/materials/DB/скрипт_создания_БД.sql)
-- [скрипт_заполнения_БД.sql](./res/materials/DB/скрипт_заполнения_БД.sql)
+> ***Материалы к заданию:***
+>
+> - [ПР_СОЗДАНИЕ_POST_corporate_settlemet_account_create.docx](./res/materials/ПР_СОЗДАНИЕ_POST_corporate_settlemet_account_create.docx)
+> - [ЭП_СОЗДАНИЕ_POST_corporate_settlemet_instance_create.docx](./res/materials/ЭП_СОЗДАНИЕ_POST_corporate_settlemet_instance_create.docx)
+> - [схема_БД.jpg](./res/materials/DB/схема_БД.jpg)
+> - [список_справочников.docx](./res/materials/DB/список_справочников.docx)
+> - [скрипт_создания_БД.sql](./res/materials/DB/скрипт_создания_БД.sql)
+> - [скрипт_заполнения_БД.sql](./res/materials/DB/скрипт_заполнения_БД.sql)
