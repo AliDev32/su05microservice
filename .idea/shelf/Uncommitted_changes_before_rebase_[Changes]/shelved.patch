@@ -1,0 +1,27 @@
+Index: src/main/java/ali/su/cft2j02/Starter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package ali.su.cft2j02;\r\n\r\nimport ali.su.cft2j02.datareader.DataFileReader;\r\nimport ali.su.cft2j02.datasaver.*;\r\nimport ali.su.cft2j02.middleworks.MiddleWorksRunner;\r\nimport org.springframework.boot.SpringApplication;\r\nimport org.springframework.boot.autoconfigure.SpringBootApplication;\r\n\r\nimport java.util.Arrays;\r\n\r\n@SpringBootApplication(scanBasePackages = \"ali.su.cft2j02\")\r\npublic class Starter {\r\n    public static void main(String[] args) {\r\n        var ctx = SpringApplication.run(Starter.class);\r\n\r\n        var data = ctx.getBean(DataFileReader.class).get();\r\n        data.forEach(System.out::println);\r\n\r\n\r\n        System.out.println(\"===============================\");\r\n        var workRunner = ctx.getBean(MiddleWorksRunner.class);\r\n        workRunner.getWorkers().forEach(System.out::println);\r\n\r\n        data = workRunner.doWork(data);\r\n        System.out.println(\"===============================\");\r\n\r\n        var saver = ctx.getBean(DataDbSaver.class);\r\n        saver.accept(data);\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/ali/su/cft2j02/Starter.java b/src/main/java/ali/su/cft2j02/Starter.java
+--- a/src/main/java/ali/su/cft2j02/Starter.java	(revision a01be71599071a3ed5d7090280d1a40e10f4cbc2)
++++ b/src/main/java/ali/su/cft2j02/Starter.java	(date 1709802645973)
+@@ -1,5 +1,6 @@
+ package ali.su.cft2j02;
+ 
++import ali.su.cft2j02.config.ReaderConfig;
+ import ali.su.cft2j02.datareader.DataFileReader;
+ import ali.su.cft2j02.datasaver.*;
+ import ali.su.cft2j02.middleworks.MiddleWorksRunner;
+@@ -26,5 +27,9 @@
+ 
+         var saver = ctx.getBean(DataDbSaver.class);
+         saver.accept(data);
++
++        var readerConfig = ctx.getBean(ReaderConfig.class);
++        System.out.println("---> " + readerConfig.getLocation());
++        System.out.println("---> " + readerConfig.getDateFormat());
+     }
+ }

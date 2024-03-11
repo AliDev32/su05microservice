@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bcc24ebf-d284-420c-a07a-82b949be1cfe" name="Changes" comment="tests" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="concurrenthashmap" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="onto" value="466fa05aa74048c68891e271374dd07b040bb9cb" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2cBJZanEyrnv6jYfLUdTCOyHS5g" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Start.executor": "Run",
+    "Application.Starter.executor": "Run",
+    "JUnit.DataDbSaverTest.executor": "Run",
+    "JUnit.DataDbSaverTest.saveToDB_newUser.executor": "Run",
+    "JUnit.DataDbSaverTest.saveToDB_onlyLogin.executor": "Run",
+    "JUnit.DataFileReaderTest.executor": "Run",
+    "JUnit.DataFileReaderTest.load_emptyDir.executor": "Run",
+    "JUnit.DataFileReaderTest.load_invalidData.executor": "Run",
+    "JUnit.DataFileReaderTest.load_success.executor": "Run",
+    "JUnit.IntegrationTest.executor": "Run",
+    "JUnit.WorkCheckAppTest.executor": "Run",
+    "JUnit.WorkCheckAppTest.typeAppl_NoOfRegisterList.executor": "Run",
+    "JUnit.WorkCheckAppTest.typeAppl_ofRegisterList.executor": "Run",
+    "JUnit.WorkCheckFIOTest.convert_normFio.executor": "Run",
+    "JUnit.WorkCheckFIOTest.executor": "Run",
+    "JUnit.WorkCheckLoginDateTest.accessDate_empty.executor": "Run",
+    "JUnit.WorkCheckLoginDateTest.accessDate_exist.executor": "Run",
+    "JUnit.WorkCheckLoginDateTest.executor": "Run",
+    "JUnit.ali.su.cft2j02 in su03multithread.executor": "Coverage",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Starter.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/tor/workspace/java/works_bc_cursCFT2J_02/su05microservice/src/main/resources/db/changelog/changeset",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/tor/workspace/java/works_bc_cursCFT2J_02/su03multithread/src/main/java/ali/su/learn/Main.java",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\tor\workspace\java\works_bc_cursCFT2J_02\su05microservice\src\main\resources\db\changelog\changeset" />
+      <recent name="C:\tor\workspace\java\works_bc_cursCFT2J_02\su04spring\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\tor\workspace\java\works_bc_cursCFT2J_02\su04spring" />
+      <recent name="C:\tor\workspace\java\works_bc_cursCFT2J_02\su04spring\src\main\datafiles" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ali.su.cft2j02.datasaver" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ali.su.cft2j02" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ali.su.cft2j02.config" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Starter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="su04spring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ali.su.cft2j02.Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ali.su.cft2j02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Starter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-8f899f12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bcc24ebf-d284-420c-a07a-82b949be1cfe" name="Changes" comment="" />
+      <created>1707579098918</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707579098918</updated>
+      <workItem from="1707579099957" duration="1287000" />
+      <workItem from="1707652040859" duration="3259000" />
+      <workItem from="1707664618414" duration="5546000" />
+      <workItem from="1707718708110" duration="2093000" />
+      <workItem from="1707722162050" duration="1203000" />
+      <workItem from="1707739791686" duration="628000" />
+      <workItem from="1707804467362" duration="3831000" />
+      <workItem from="1707892795043" duration="597000" />
+      <workItem from="1707901188740" duration="522000" />
+      <workItem from="1707902162841" duration="7126000" />
+      <workItem from="1707978402578" duration="18304000" />
+      <workItem from="1708068290366" duration="14337000" />
+      <workItem from="1708187323147" duration="1103000" />
+      <workItem from="1709279914926" duration="1994000" />
+      <workItem from="1709282653966" duration="20485000" />
+      <workItem from="1709324288659" duration="90000" />
+      <workItem from="1709324424024" duration="227000" />
+      <workItem from="1709476449880" duration="1784000" />
+      <workItem from="1709478449781" duration="7875000" />
+      <workItem from="1709536192117" duration="10552000" />
+      <workItem from="1709558496958" duration="8232000" />
+      <workItem from="1709620510506" duration="15698000" />
+      <workItem from="1709706604689" duration="16700000" />
+      <workItem from="1709792377233" duration="22893000" />
+      <workItem from="1709893117856" duration="14694000" />
+      <workItem from="1710089220857" duration="1219000" />
+      <workItem from="1710138974332" duration="5001000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1707580184474</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707580184474</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1707652781554</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707652781555</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1707653296139</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707653296139</updated>
+    </task>
+    <task id="LOCAL-00004" summary="based on ConcurrentHashMap with debug">
+      <option name="closed" value="true" />
+      <created>1708013396154</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708013396154</updated>
+    </task>
+    <task id="LOCAL-00005" summary="based on ConcurrentHashMap clean debug">
+      <option name="closed" value="true" />
+      <created>1708013777609</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708013777609</updated>
+    </task>
+    <task id="LOCAL-00006" summary="based on ConcurrentHashMap clean debug">
+      <option name="closed" value="true" />
+      <created>1708013849773</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708013849773</updated>
+    </task>
+    <task id="LOCAL-00007" summary="manual sync with debug">
+      <option name="closed" value="true" />
+      <created>1708097860525</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708097860525</updated>
+    </task>
+    <task id="LOCAL-00008" summary="manual sync clean debug">
+      <option name="closed" value="true" />
+      <created>1708097996280</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708097996280</updated>
+    </task>
+    <task id="LOCAL-00009" summary="based on ConcurrentHashMap clean debug">
+      <option name="closed" value="true" />
+      <created>1708098078746</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708098078746</updated>
+    </task>
+    <task id="LOCAL-00010" summary="based on ConcurrentHashMap with debug">
+      <option name="closed" value="true" />
+      <created>1708098498325</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708098498325</updated>
+    </task>
+    <task id="LOCAL-00011" summary="based on ConcurrentHashMap with debug">
+      <option name="closed" value="true" />
+      <created>1708098732303</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708098732303</updated>
+    </task>
+    <task id="LOCAL-00012" summary="based on ConcurrentHashMap clean debug">
+      <option name="closed" value="true" />
+      <created>1708099570641</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708099570641</updated>
+    </task>
+    <task id="LOCAL-00013" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1709288192635</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1709288192635</updated>
+    </task>
+    <task id="LOCAL-00014" summary="data reader">
+      <option name="closed" value="true" />
+      <created>1709295723999</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1709295723999</updated>
+    </task>
+    <task id="LOCAL-00015" summary="move data reader to package">
+      <option name="closed" value="true" />
+      <created>1709295932265</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1709295932265</updated>
+    </task>
+    <task id="LOCAL-00016" summary="data reader return result">
+      <option name="closed" value="true" />
+      <created>1709297912135</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1709297912135</updated>
+    </task>
+    <task id="LOCAL-00017" summary="MapStringTabDelimitedToData renamed to MapTabDelimitedStringToData">
+      <option name="closed" value="true" />
+      <created>1709297946786</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1709297946786</updated>
+    </task>
+    <task id="LOCAL-00018" summary="t">
+      <option name="closed" value="true" />
+      <created>1709298255796</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1709298255796</updated>
+    </task>
+    <task id="LOCAL-00019" summary="pom fix">
+      <option name="closed" value="true" />
+      <created>1709300509762</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1709300509762</updated>
+    </task>
+    <task id="LOCAL-00020" summary="datafiles path config">
+      <option name="closed" value="true" />
+      <created>1709300743529</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1709300743529</updated>
+    </task>
+    <task id="LOCAL-00021" summary="List&lt;Data&gt; to var">
+      <option name="closed" value="true" />
+      <created>1709304747271</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1709304747271</updated>
+    </task>
+    <task id="LOCAL-00022" summary="attach spring-data-jdbc in pom">
+      <option name="closed" value="true" />
+      <created>1709304770756</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1709304770756</updated>
+    </task>
+    <task id="LOCAL-00023" summary="move to SpringDataJPA + testRepo classes">
+      <option name="closed" value="true" />
+      <created>1709482340293</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1709482340294</updated>
+    </task>
+    <task id="LOCAL-00024" summary="liquibase, db schema, dto">
+      <option name="closed" value="true" />
+      <created>1709486337319</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1709486337319</updated>
+    </task>
+    <task id="LOCAL-00025" summary="DataDBSaver, some refactoring">
+      <option name="closed" value="true" />
+      <created>1709565939849</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1709565939849</updated>
+    </task>
+    <task id="LOCAL-00026" summary="MiddleWorkers">
+      <option name="closed" value="true" />
+      <created>1709654502230</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1709654502230</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Source Data Files">
+      <option name="closed" value="true" />
+      <created>1709654549418</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1709654549418</updated>
+    </task>
+    <task id="LOCAL-00028" summary="t">
+      <option name="closed" value="true" />
+      <created>1709712838030</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1709712838030</updated>
+    </task>
+    <task id="LOCAL-00029" summary="MiddleWorksRunner advantage">
+      <option name="closed" value="true" />
+      <created>1709713636454</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1709713636454</updated>
+    </task>
+    <task id="LOCAL-00030" summary="sugar">
+      <option name="closed" value="true" />
+      <created>1709713984183</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1709713984183</updated>
+    </task>
+    <task id="LOCAL-00031" summary="LogTransformation annotation aop processing, LogConfig">
+      <option name="closed" value="true" />
+      <created>1709801923527</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1709801923527</updated>
+    </task>
+    <task id="LOCAL-00032" summary="ReaderConfig">
+      <option name="closed" value="true" />
+      <created>1709802821006</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1709802821006</updated>
+    </task>
+    <task id="LOCAL-00033" summary="LogTransformationAspect">
+      <option name="closed" value="true" />
+      <created>1709807604263</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1709807604263</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Starter">
+      <option name="closed" value="true" />
+      <created>1709807862663</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1709807862663</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Starter on interfaces">
+      <option name="closed" value="true" />
+      <created>1709808370486</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1709808370486</updated>
+    </task>
+    <task id="LOCAL-00036" summary="clean">
+      <option name="closed" value="true" />
+      <created>1709813212790</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1709813212790</updated>
+    </task>
+    <task id="LOCAL-00037" summary="ignoring and logging bad format rows">
+      <option name="closed" value="true" />
+      <created>1709824866361</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1709824866361</updated>
+    </task>
+    <task id="LOCAL-00038" summary="tests">
+      <option name="closed" value="true" />
+      <created>1709824882337</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1709824882337</updated>
+    </task>
+    <task id="LOCAL-00039" summary="tests">
+      <option name="closed" value="true" />
+      <created>1709910330744</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1709910330744</updated>
+    </task>
+    <task id="LOCAL-00040" summary="tests">
+      <option name="closed" value="true" />
+      <created>1709911701259</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1709911701259</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="161" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="100" />
+                  <entry key="Table.Default.Hash.ColumnIdWidth" value="65" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="data reader" />
+    <MESSAGE value="move data reader to package" />
+    <MESSAGE value="data reader return result" />
+    <MESSAGE value="MapStringTabDelimitedToData renamed to MapTabDelimitedStringToData" />
+    <MESSAGE value="pom fix" />
+    <MESSAGE value="datafiles path config" />
+    <MESSAGE value="List&lt;Data&gt; to var" />
+    <MESSAGE value="attach spring-data-jdbc in pom" />
+    <MESSAGE value="move to SpringDataJPA + testRepo classes" />
+    <MESSAGE value="liquibase, db schema, dto" />
+    <MESSAGE value="DataDBSaver, some refactoring" />
+    <MESSAGE value="MiddleWorkers" />
+    <MESSAGE value="Source Data Files" />
+    <MESSAGE value="t" />
+    <MESSAGE value="MiddleWorksRunner advantage" />
+    <MESSAGE value="sugar" />
+    <MESSAGE value="LogTransformation annotation aop processing, LogConfig" />
+    <MESSAGE value="ReaderConfig" />
+    <MESSAGE value="LogTransformationAspect" />
+    <MESSAGE value="Starter" />
+    <MESSAGE value="Starter on interfaces" />
+    <MESSAGE value="clean" />
+    <MESSAGE value="ignoring and logging bad format rows" />
+    <MESSAGE value="tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/su04spring$DataFileReaderTest.ic" NAME="DataFileReaderTest Coverage Results" MODIFIED="1709896575411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ali.su.cft2j02.datareader.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/su04spring$WorkCheckLoginDateTest.ic" NAME="WorkCheckLoginDateTest Coverage Results" MODIFIED="1709905278830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ali.su.cft2j02.datareader.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/su03multithread$ali_su_cft2j02_in_su03multithread.ic" NAME="ali.su.cft2j02 in su03multithread Coverage Results" MODIFIED="1708336302286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ali.su.cft2j02.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/su04spring$DataDbSaverTest.ic" NAME="DataDbSaverTest Coverage Results" MODIFIED="1709900132347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ali.su.cft2j02.datareader.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/su04spring$WorkCheckAppTest.ic" NAME="WorkCheckAppTest Coverage Results" MODIFIED="1709906065715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ali.su.cft2j02.datareader.*</FILTER>
+    </SUITE>
+  </component>
+</project>
