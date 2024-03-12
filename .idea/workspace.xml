@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcc24ebf-d284-420c-a07a-82b949be1cfe" name="Changes" comment="tests" />
+    <list default="true" id="bcc24ebf-d284-420c-a07a-82b949be1cfe" name="Changes" comment="README.md">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/domain/StatusResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/mapping/Mappable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/mapping/ProductRequestMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/mapping/ProductRequestToProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/prodregister/CreateProdRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/prodregister/ProductRegisterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/prodregister/entity/ProductRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/prodregister/entity/ProductRegisterType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/prodregister/repo/ProductRegisterRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/prodregister/repo/ProductRegisterTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/product/CreateProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/product/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/product/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/product/entity/ProductClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/product/messages/InstanceAgreement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/product/messages/ProductRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/product/messages/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/product/repo/ProductClassRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/product/repo/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/tst/Dto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/tst/FirstController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/utils/Makeable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/utils/RequestValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3286eada-beea-423d-ae3d-b81f4316f3f4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3286eada-beea-423d-ae3d-b81f4316f3f4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +44,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,8 +72,11 @@
     <option name="RESET_MODE" value="SOFT" />
   </component>
   <component name="GitRewordedCommitMessages">
-    <option name="onto" value="466fa05aa74048c68891e271374dd07b040bb9cb" />
+    <option name="onto" value="b904f2fac3bea911c201643ff6916de6919e2b53" />
   </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -57,48 +89,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.Start.executor": "Run",
-    "Application.Starter.executor": "Run",
-    "JUnit.DataDbSaverTest.executor": "Run",
-    "JUnit.DataDbSaverTest.saveToDB_newUser.executor": "Run",
-    "JUnit.DataDbSaverTest.saveToDB_onlyLogin.executor": "Run",
-    "JUnit.DataFileReaderTest.executor": "Run",
-    "JUnit.DataFileReaderTest.load_emptyDir.executor": "Run",
-    "JUnit.DataFileReaderTest.load_invalidData.executor": "Run",
-    "JUnit.DataFileReaderTest.load_success.executor": "Run",
-    "JUnit.IntegrationTest.executor": "Run",
-    "JUnit.WorkCheckAppTest.executor": "Run",
-    "JUnit.WorkCheckAppTest.typeAppl_NoOfRegisterList.executor": "Run",
-    "JUnit.WorkCheckAppTest.typeAppl_ofRegisterList.executor": "Run",
-    "JUnit.WorkCheckFIOTest.convert_normFio.executor": "Run",
-    "JUnit.WorkCheckFIOTest.executor": "Run",
-    "JUnit.WorkCheckLoginDateTest.accessDate_empty.executor": "Run",
-    "JUnit.WorkCheckLoginDateTest.accessDate_exist.executor": "Run",
-    "JUnit.WorkCheckLoginDateTest.executor": "Run",
-    "JUnit.ali.su.cft2j02 in su03multithread.executor": "Coverage",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.Starter.executor": "Run",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/tor/workspace/java/works_bc_cursCFT2J_02/su05microservice/src/main/resources/db/changelog/changeset",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/tor/workspace/java/works_bc_cursCFT2J_02/su03multithread/src/main/java/ali/su/learn/Main.java",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Start.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Starter.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DataDbSaverTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DataDbSaverTest.saveToDB_newUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DataDbSaverTest.saveToDB_onlyLogin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DataFileReaderTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DataFileReaderTest.load_emptyDir.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DataFileReaderTest.load_invalidData.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DataFileReaderTest.load_success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WorkCheckAppTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WorkCheckAppTest.typeAppl_NoOfRegisterList.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WorkCheckAppTest.typeAppl_ofRegisterList.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WorkCheckFIOTest.convert_normFio.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WorkCheckFIOTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WorkCheckLoginDateTest.accessDate_empty.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WorkCheckLoginDateTest.accessDate_exist.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WorkCheckLoginDateTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ali.su.cft2j02 in su03multithread.executor&quot;: &quot;Coverage&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Starter.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/tor/workspace/java/works_bc_cursCFT2J_02/su05microservice/src/main/resources/db/changelog/changeset&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/tor/workspace/java/works_bc_cursCFT2J_02/su03multithread/src/main/java/ali/su/learn/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\tor\workspace\java\works_bc_cursCFT2J_02\su05microservice\src\main\resources\db\changelog\changeset" />
@@ -112,16 +148,31 @@
       <recent name="C:\tor\workspace\java\works_bc_cursCFT2J_02\su04spring\src\main\datafiles" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ali.su.cft2j02.prodregister.entity" />
+      <recent name="ali.su.cft2j02.product.messages" />
+      <recent name="ali.su.cft2j02.domain" />
+      <recent name="ali.su.cft2j02.tst" />
       <recent name="ali.su.cft2j02.datasaver" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ali.su.cft2j02" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ali.su.cft2j02.product" />
+      <recent name="ali.su.cft2j02.prodregister" />
       <recent name="ali.su.cft2j02.config" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="HTTP Request.generated-requests | #3">
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="Starter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="su04spring" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ali.su.cft2j02.Starter" />
@@ -137,7 +188,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #3" />
         <item itemvalue="Spring Boot.Starter" />
+        <item itemvalue="HTTP Request.generated-requests | #2" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +237,9 @@
       <workItem from="1709893117856" duration="14694000" />
       <workItem from="1710089220857" duration="1219000" />
       <workItem from="1710138974332" duration="5001000" />
+      <workItem from="1710151371424" duration="10165000" />
+      <workItem from="1710232474806" duration="1576000" />
+      <workItem from="1710243115210" duration="4111000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -504,7 +561,47 @@
       <option name="project" value="LOCAL" />
       <updated>1709911701259</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1710151555920</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1710151555920</updated>
+    </task>
+    <task id="LOCAL-00042" summary="pom, liquibase init db schema">
+      <option name="closed" value="true" />
+      <created>1710151682485</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1710151682485</updated>
+    </task>
+    <task id="LOCAL-00043" summary="IDEA service files">
+      <option name="closed" value="true" />
+      <created>1710151714980</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1710151714980</updated>
+    </task>
+    <task id="LOCAL-00044" summary="README.md">
+      <option name="closed" value="true" />
+      <created>1710156649389</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1710156649389</updated>
+    </task>
+    <task id="LOCAL-00045" summary="README.md">
+      <option name="closed" value="true" />
+      <created>1710157232519</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1710157232519</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,10 +627,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit" />
-    <MESSAGE value="data reader" />
-    <MESSAGE value="move data reader to package" />
-    <MESSAGE value="data reader return result" />
     <MESSAGE value="MapStringTabDelimitedToData renamed to MapTabDelimitedStringToData" />
     <MESSAGE value="pom fix" />
     <MESSAGE value="datafiles path config" />
@@ -555,7 +648,11 @@
     <MESSAGE value="clean" />
     <MESSAGE value="ignoring and logging bad format rows" />
     <MESSAGE value="tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="pom, liquibase init db schema" />
+    <MESSAGE value="IDEA service files" />
+    <MESSAGE value="README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/su04spring$DataFileReaderTest.ic" NAME="DataFileReaderTest Coverage Results" MODIFIED="1709896575411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
