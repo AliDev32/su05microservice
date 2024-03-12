@@ -1,14 +1,21 @@
 package ali.su.cft2j02.product;
 
+import ali.su.cft2j02.entity.ProductClass;
+import ali.su.cft2j02.entity.ProductRegisterType;
+import ali.su.cft2j02.mapping.ProductRequestMap;
 import ali.su.cft2j02.mapping.ProductRequestToProductMapper;
+import ali.su.cft2j02.prodregister.ProductRegisterService;
 import ali.su.cft2j02.repo.ProductRegisterTypeRepository;
 import ali.su.cft2j02.entity.Product;
 import ali.su.cft2j02.product.messages.ProductRequest;
 import ali.su.cft2j02.product.messages.ProductResponse;
 import ali.su.cft2j02.repo.ProductClassRepository;
 import ali.su.cft2j02.repo.ProductRepository;
+import ali.su.cft2j02.utils.ResponseMaker;
+import jakarta.transaction.Transactional;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -20,15 +27,15 @@ import java.util.List;
 @Setter
 @Slf4j
 public class ProductService {
-//    @Autowired
+    @Autowired
     private ProductRepository productRepo;
-//    @Autowired
+    @Autowired
     private ProductClassRepository productClassRepo;
-//    @Autowired
+    @Autowired
     private ProductRegisterTypeRepository productRegisterTypeRepo;
-//    @Autowired
+    @Autowired
     private ProductRequestToProductMapper productRequestToProductMapper;
-//    @Autowired
+    @Autowired
     private ProductRegisterService productRegisterService;
 
     private static final String CLIENT_ACCOUNT_TYPE = "Клиентский";

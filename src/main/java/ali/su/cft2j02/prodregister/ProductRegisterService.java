@@ -1,12 +1,21 @@
 package ali.su.cft2j02.prodregister;
 
-import ali.su.cft2j02.repo.ProductRegisterRepository;
-import ali.su.cft2j02.repo.ProductRegisterTypeRepository;
-import ali.su.cft2j02.repo.ProductClassRepository;
-import ali.su.cft2j02.repo.ProductRepository;
+import ali.su.cft2j02.entity.*;
+import ali.su.cft2j02.mapping.ProductRegRequestMap;
+import ali.su.cft2j02.mapping.ProductRegRequestToProductRegMapper;
+import ali.su.cft2j02.prodregister.messages.ProductRegisterResponse;
+import ali.su.cft2j02.prodregister.messages.ProductRegisterRequest;
+import ali.su.cft2j02.product.messages.ProductRequest;
+import ali.su.cft2j02.repo.*;
+import ali.su.cft2j02.utils.ResponseMaker;
+import jakarta.transaction.Transactional;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Сервис, создающий продуктовый регистр
@@ -15,19 +24,19 @@ import org.springframework.stereotype.Service;
 @Setter
 @Slf4j
 public class ProductRegisterService {
-//    @Autowired
+    @Autowired
     private ProductRepository productRepo;
-//    @Autowired
+    @Autowired
     private ProductClassRepository productClassRepo;
-//    @Autowired
+    @Autowired
     private ProductRegisterRepository productRegisterRepo;
-//    @Autowired
+    @Autowired
     private ProductRegisterTypeRepository productRegisterTypeRepo;
-//    @Autowired
+    @Autowired
     private AccountPoolRepository accountPoolRepo;
-//    @Autowired
+    @Autowired
     private AccountNumberRepository accountNumberRepo;
-//    @Autowired
+    @Autowired
     private ProductRegRequestToProductRegMapper productRegRequestToProductRegMapper;
 
     public ProductRegisterResponse validateRequest(ProductRegisterRequest request) {
