@@ -135,6 +135,8 @@ CREATE TABLE IF NOT EXISTS cft2j02.public.agreement
 ALTER TABLE cft2j02.public.agreement
     ADD FOREIGN KEY (product_id) REFERENCES cft2j02.public.tpp_product (id);
 
+CREATE SEQUENCE IF NOT EXISTS cft2j02.public.table_id_seq;
+
 -- rollback drop table cft2j02.public.agreement;
 -- rollback drop table cft2j02.public.tpp_product;
 -- rollback drop table cft2j02.public.tpp_template_register_balance;
@@ -144,3 +146,4 @@ ALTER TABLE cft2j02.public.agreement
 -- rollback drop table cft2j02.public.tpp_ref_product_register_type;
 -- rollback drop table cft2j02.public.tpp_ref_product_class;
 -- rollback drop table cft2j02.public.tpp_ref_account_type;
+-- rollback drop sequence cft2j02.public.table_id_seq;
