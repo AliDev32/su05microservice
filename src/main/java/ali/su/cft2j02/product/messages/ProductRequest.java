@@ -102,7 +102,7 @@ public class ProductRequest extends RequestValidator {
     private List<InstanceAgreement> instanceAgreements;
 
     @Override
-    public boolean isValidate() {
+    public boolean isValid() {
         return (instanceId == null) ? isValidForCreateProduct() : isValidForCreateAgreement();
     }
 
@@ -129,7 +129,7 @@ public class ProductRequest extends RequestValidator {
 
         if (additionalVipProperties != null) {
             for (var property : additionalVipProperties) {
-                if (!property.isValidate()) {
+                if (!property.isValid()) {
                     setFailField("additionalPropertiesVip." + property.getFailField());
                     return false;
                 }
@@ -153,7 +153,7 @@ public class ProductRequest extends RequestValidator {
         }
 
         for (var instance : instanceAgreements) {
-            if (!instance.isValidate()) {
+            if (!instance.isValid()) {
                 setFailField("instanceAgreement." + instance.getFailField());
                 return false;
             }
@@ -182,7 +182,7 @@ class AdditionalPropertyVip extends RequestValidator {
     private String name;
 
     @Override
-    public boolean isValidate() {
+    public boolean isValid() {
         if (RequestValidator.isFailField(key, () -> setFailField("key"))) return false;
         if (RequestValidator.isFailField(value, () -> setFailField("value"))) return false;
         return true;

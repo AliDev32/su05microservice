@@ -96,7 +96,7 @@ public class InstanceAgreement extends RequestValidator {
     private String maximalInterestRateCoefficientAction;
 
     @Override
-    public boolean isValidate() {
+    public boolean isValid() {
         if (RequestValidator.isFailField(number, () -> setFailField("number"))) return false;
         if (RequestValidator.isFailField(openingDate, () -> setFailField("openingDate"))) return false;
         return true;

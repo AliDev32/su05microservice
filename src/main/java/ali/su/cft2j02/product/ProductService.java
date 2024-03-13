@@ -45,7 +45,7 @@ public class ProductService {
         }
 
         // Проверка заполненности обязательных полей
-        if (!request.isValidate()) {
+        if (!request.isValid()) {
             String info = String.format("Значение обязательного параметра %s не заполнено.", request.getFailField());
             log.info(info);
             return ResponseMaker.getBadResponse(new ProductResponse(), info);

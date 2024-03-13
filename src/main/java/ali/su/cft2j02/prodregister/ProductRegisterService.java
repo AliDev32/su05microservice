@@ -12,7 +12,6 @@ import jakarta.transaction.Transactional;
 import lombok.AllArgsConstructor;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -43,7 +42,7 @@ public class ProductRegisterService {
         }
 
         // Проверка заполненности обязательных полей
-        if (!request.isValidate()) {
+        if (!request.isValid()) {
             String info = String.format("Имя обязательного параметра %s не заполнено.", request.getFailField());
             log.info(info);
             return ResponseMaker.getBadResponse(new ProductRegisterResponse(), info);

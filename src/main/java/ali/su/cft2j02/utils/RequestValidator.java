@@ -7,7 +7,7 @@ import java.util.Date;
 @Data
 public abstract class RequestValidator {
     private String failField;
-    public abstract boolean isValidate();
+    public abstract boolean isValid();
 
     public static boolean isFailField(String value, Makeable func) {
         if (value == null || value.isEmpty()) {

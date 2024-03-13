@@ -59,7 +59,7 @@ public class ProductRegisterRequest extends RequestValidator {
      * @return true - все нужные поля заполнены, false - в противном случае
      */
     @Override
-    public boolean isValidate() {
+    public boolean isValid() {
         if (RequestValidator.isFailField(instanceId, () -> setFailField("instanceId"))) return false;
         if (RequestValidator.isFailField(registerTypeCode, () -> setFailField("registerTypeCode"))) return false;
         if (RequestValidator.isFailField(accountType, () -> setFailField("accountType"))) return false;
