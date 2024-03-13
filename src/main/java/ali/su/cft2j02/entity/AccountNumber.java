@@ -14,9 +14,7 @@ public class AccountNumber {
     @SequenceGenerator(name = "accnum_seq", sequenceName = "table_id_seq", allocationSize = 1)
     private Long id;
 
-    @Column(name = "account_pool_id")
     private Long accountPoolId;
 
-    @Column(name = "account_number")
     private String accountNumber;
 }

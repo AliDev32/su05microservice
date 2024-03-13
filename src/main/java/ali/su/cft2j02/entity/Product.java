@@ -24,13 +24,11 @@ public class Product {
     /**
      * Код продукта в каталоге продуктов
      */
-    @Column(name = "product_code_id")
     private Long productCodeId;
 
     /**
      * ID Клиента
      */
-    @Column(name = "client_id")
     private Long clientId;
 
     /**
@@ -48,13 +46,10 @@ public class Product {
      */
     private Long priority;
 
-    @Column(name = "date_of_conclusion")
     private Date dateOfConclusion;
 
-    @Column(name = "start_date_time")
     private Date startDateTime;
 
-    @Column(name = "end_date_time")
     private Date endDateTime;
 
     private Long days;
@@ -62,21 +57,16 @@ public class Product {
     /**
      * Штрафная процентная ставка
      */
-    @Column(name = "penalty_rate")
     private Double penaltyRate;
 
     private Double nso;
 
-    @Column(name = "threshold_amount")
     private Double thresholdAmount;
 
-    @Column(name = "requisite_type")
     private String requisiteType;
 
-    @Column(name = "interest_rate_type")
     private String interestRateType;
 
-    @Column(name = "tax_rate")
     private Double taxRate;
 
     @Column(name = "reasone_close")

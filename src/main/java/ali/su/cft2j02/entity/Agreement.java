@@ -22,7 +22,6 @@ public class Agreement {
     /**
      * ID продукта
      */
-    @Column(name = "product_id")
     private Long productId;
 
     /**

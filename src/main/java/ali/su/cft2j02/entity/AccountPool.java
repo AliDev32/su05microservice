@@ -14,16 +14,12 @@ public class AccountPool {
     @SequenceGenerator(name = "accpool_seq", sequenceName = "table_id_seq", allocationSize = 1)
     private Long id;
 
-    @Column(name = "branch_code")
     private String branchCode;
 
-    @Column(name = "currency_code")
     private String currencyCode;
 
-    @Column(name = "mdm_code")
     private String mdmCode;
 
-    @Column(name = "priority_code")
     private String priorityCode;
 
     @Column(name = "registry_type_code")

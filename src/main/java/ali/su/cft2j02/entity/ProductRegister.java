@@ -17,7 +17,6 @@ public class ProductRegister {
     @SequenceGenerator(name="reg_seq", sequenceName="table_id_seq", allocationSize=1)
     private Long id;
 
-    @Column(name = "product_id")
     private Long productId;
 
     private String type;
@@ -25,11 +24,9 @@ public class ProductRegister {
     @Column(name = "account")
     private Long accountId;
 
-    @Column(name = "currency_code")
     private String currencyCode;
 
     private String state;
 
-    @Column(name = "account_number")
     private String accountNumber;
 }
