@@ -13,9 +13,9 @@ import ali.su.cft2j02.repo.ProductClassRepository;
 import ali.su.cft2j02.repo.ProductRepository;
 import ali.su.cft2j02.utils.ResponseMaker;
 import jakarta.transaction.Transactional;
+import lombok.AllArgsConstructor;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -25,17 +25,13 @@ import java.util.List;
  */
 @Service
 @Setter
+@AllArgsConstructor
 @Slf4j
 public class ProductService {
-    @Autowired
     private ProductRepository productRepo;
-    @Autowired
     private ProductClassRepository productClassRepo;
-    @Autowired
     private ProductRegisterTypeRepository productRegisterTypeRepo;
-    @Autowired
     private ProductRequestToProductMapper productRequestToProductMapper;
-    @Autowired
     private ProductRegisterService productRegisterService;
 
     private static final String CLIENT_ACCOUNT_TYPE = "Клиентский";
@@ -50,7 +46,7 @@ public class ProductService {
 
         // Проверка заполненности обязательных полей
         if (!request.isValidate()) {
-            String info = String.format("Имя обязательного параметра %s не заполнено.", request.getFailField());
+            String info = String.format("Значение обязательного параметра %s не заполнено.", request.getFailField());
             log.info(info);
             return ResponseMaker.getBadResponse(new ProductResponse(), info);
         }

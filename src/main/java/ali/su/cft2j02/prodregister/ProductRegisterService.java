@@ -9,6 +9,7 @@ import ali.su.cft2j02.product.messages.ProductRequest;
 import ali.su.cft2j02.repo.*;
 import ali.su.cft2j02.utils.ResponseMaker;
 import jakarta.transaction.Transactional;
+import lombok.AllArgsConstructor;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,21 +23,15 @@ import java.util.List;
  */
 @Service
 @Setter
+@AllArgsConstructor
 @Slf4j
 public class ProductRegisterService {
-    @Autowired
     private ProductRepository productRepo;
-    @Autowired
     private ProductClassRepository productClassRepo;
-    @Autowired
     private ProductRegisterRepository productRegisterRepo;
-    @Autowired
     private ProductRegisterTypeRepository productRegisterTypeRepo;
-    @Autowired
     private AccountPoolRepository accountPoolRepo;
-    @Autowired
     private AccountNumberRepository accountNumberRepo;
-    @Autowired
     private ProductRegRequestToProductRegMapper productRegRequestToProductRegMapper;
 
     public ProductRegisterResponse validateRequest(ProductRegisterRequest request) {

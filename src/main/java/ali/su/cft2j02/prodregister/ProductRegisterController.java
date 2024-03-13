@@ -3,9 +3,9 @@ package ali.su.cft2j02.prodregister;
 import ali.su.cft2j02.prodregister.messages.ProductRegisterRequest;
 import ali.su.cft2j02.prodregister.messages.ProductRegisterResponse;
 import ali.su.cft2j02.utils.ResponseMaker;
+import lombok.AllArgsConstructor;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @Slf4j
 @Setter
+@AllArgsConstructor
 @RequestMapping(path = "${rest.account-endpoint}", produces = "application/json")
 public class ProductRegisterController {
-    @Autowired
     private ProductRegisterService productRegisterService;
 
     @PostMapping(path = "/create", consumes = "application/json")

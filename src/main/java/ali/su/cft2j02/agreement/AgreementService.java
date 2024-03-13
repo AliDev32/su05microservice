@@ -8,6 +8,7 @@ import ali.su.cft2j02.repo.AgreementRepository;
 import ali.su.cft2j02.repo.ProductRepository;
 import ali.su.cft2j02.utils.ResponseMaker;
 import jakarta.transaction.Transactional;
+import lombok.AllArgsConstructor;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,11 +22,10 @@ import java.util.List;
  */
 @Service
 @Setter
+@AllArgsConstructor
 @Slf4j
 public class AgreementService {
-    @Autowired
     private ProductRepository productRepo;
-    @Autowired
     private AgreementRepository agreementRepo;
 
     @Transactional
