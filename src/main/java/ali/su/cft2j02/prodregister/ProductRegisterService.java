@@ -10,6 +10,7 @@ import ali.su.cft2j02.repo.*;
 import ali.su.cft2j02.utils.ResponseMaker;
 import jakarta.transaction.Transactional;
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -22,6 +23,7 @@ import java.util.List;
  */
 @Service
 @Setter
+@NoArgsConstructor
 @AllArgsConstructor
 @Slf4j
 public class ProductRegisterService {

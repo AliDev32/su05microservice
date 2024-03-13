@@ -4,6 +4,7 @@ import ali.su.cft2j02.prodregister.messages.ProductRegisterRequest;
 import ali.su.cft2j02.prodregister.messages.ProductRegisterResponse;
 import ali.su.cft2j02.utils.ResponseMaker;
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @Slf4j
 @Setter
+@NoArgsConstructor
 @AllArgsConstructor
 @RequestMapping(path = "${rest.account-endpoint}", produces = "application/json")
 public class ProductRegisterController {
