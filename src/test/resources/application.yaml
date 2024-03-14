@@ -1,8 +1,30 @@
 spring:
+  profiles:
+    active: test
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
   application:
     name: ali.su.cft2j02.task05
   datasource:
     url: jdbc:postgresql://localhost:5432/cft2j02
+    username: pguser
+    password: pass
+    driver-class-name: org.postgresql.Driver
+rest:
+  product-endpoint: "/corporate-settlement-instance"
+  account-endpoint: "/corporate-settlement-account"
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+  application:
+    name: ali.su.cft2j02.task05
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cft2j02test
     username: pguser
     password: pass
     driver-class-name: org.postgresql.Driver

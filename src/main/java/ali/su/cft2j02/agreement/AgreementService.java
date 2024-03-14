@@ -23,7 +23,6 @@ import java.util.List;
  */
 @Service
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
 @Slf4j
 public class AgreementService {

@@ -30,13 +30,14 @@ public class ProductServiceTest {
     private static final String CLIENT_ACCOUNT_TYPE = "Клиентский";
 
     public ProductServiceTest() {
-        productService = new ProductService();
-
         productRepoMock = Mockito.mock(ProductRepository.class);
         productClassRepoMock = Mockito.mock(ProductClassRepository.class);
         productRegisterTypeRepoMock = Mockito.mock(ProductRegisterTypeRepository.class);
         productRequestToProductMapperMock = Mockito.mock(ProductRequestToProductMapper.class);
         productRegisterServiceMock = Mockito.mock(ProductRegisterService.class);
+
+        productService = new ProductService(productRepoMock, productClassRepoMock, productRegisterTypeRepoMock,
+                                            productRequestToProductMapperMock, productRegisterServiceMock);
 
         productService.setProductRepo(productRepoMock);
         productService.setProductClassRepo(productClassRepoMock);

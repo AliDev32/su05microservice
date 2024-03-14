@@ -22,9 +22,9 @@ public class AgreementServiceTest {
     private final AgreementRepository agreementRepoMock;
 
     public AgreementServiceTest() {
-        agreementService = new AgreementService();
         productRepoMock = Mockito.mock(ProductRepository.class);
         agreementRepoMock = Mockito.mock(AgreementRepository.class);
+        agreementService = new AgreementService(productRepoMock, agreementRepoMock);
 
         agreementService.setProductRepo(productRepoMock);
         agreementService.setAgreementRepo(agreementRepoMock);

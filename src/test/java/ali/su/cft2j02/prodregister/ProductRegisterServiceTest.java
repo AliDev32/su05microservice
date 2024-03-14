@@ -26,15 +26,18 @@ public class ProductRegisterServiceTest {
     private final AccountNumberRepository accountNumberRepoMock;
 
     public ProductRegisterServiceTest() {
-        productRegisterService = new ProductRegisterService();
-
-        productRegisterRepoMock = Mockito.mock(ProductRegisterRepository.class);
         productRepoMock = Mockito.mock(ProductRepository.class);
         productClassRepoMock = Mockito.mock(ProductClassRepository.class);
+        productRegisterRepoMock = Mockito.mock(ProductRegisterRepository.class);
         productRegisterTypeRepoMock = Mockito.mock(ProductRegisterTypeRepository.class);
         accountPoolRepoMock = Mockito.mock(AccountPoolRepository.class);
-        productRegRequestToProductRegMapperMock = Mockito.mock(ProductRegRequestToProductRegMapper.class);
         accountNumberRepoMock = Mockito.mock(AccountNumberRepository.class);
+        productRegRequestToProductRegMapperMock = Mockito.mock(ProductRegRequestToProductRegMapper.class);
+
+        productRegisterService = new ProductRegisterService(productRepoMock, productClassRepoMock,
+                                                            productRegisterRepoMock, productRegisterTypeRepoMock,
+                                                            accountPoolRepoMock, accountNumberRepoMock,
+                                                            productRegRequestToProductRegMapperMock);
 
         productRegisterService.setProductRegisterRepo(productRegisterRepoMock);
         productRegisterService.setProductRepo(productRepoMock);

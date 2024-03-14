@@ -1,10 +1,14 @@
-CREATE TABLE IF NOT EXISTS tpp_ref_account_type
+-- liquibase formatted sql
+
+-- changeset torkov:create_test_schema_05
+
+CREATE TABLE IF NOT EXISTS cft2j02.test.tpp_ref_account_type
 (
     internal_id serial PRIMARY KEY,
     value       VARCHAR(100) UNIQUE NOT NULL
 );
 
-CREATE TABLE IF NOT EXISTS tpp_ref_product_class
+CREATE TABLE IF NOT EXISTS cft2j02.test.tpp_ref_product_class
 (
     internal_id      serial PRIMARY KEY,
     value            VARCHAR(100) UNIQUE NOT NULL,
@@ -17,7 +21,7 @@ CREATE TABLE IF NOT EXISTS tpp_ref_product_class
 );
 
 
-CREATE TABLE IF NOT EXISTS tpp_ref_product_register_type
+CREATE TABLE IF NOT EXISTS cft2j02.test.tpp_ref_product_register_type
 (
     internal_id              serial PRIMARY KEY,
     value                    VARCHAR(100) UNIQUE NOT NULL,
@@ -27,13 +31,13 @@ CREATE TABLE IF NOT EXISTS tpp_ref_product_register_type
     register_type_end_date   TIMESTAMP,
     account_type             VARCHAR(50)
 );
-ALTER TABLE tpp_ref_product_register_type
-    ADD FOREIGN KEY (product_class_code) REFERENCES tpp_ref_product_class (value);
+ALTER TABLE cft2j02.test.tpp_ref_product_register_type
+    ADD FOREIGN KEY (product_class_code) REFERENCES cft2j02.test.tpp_ref_product_class (value);
 
-ALTER TABLE tpp_ref_product_register_type
-    ADD FOREIGN KEY (account_type) REFERENCES tpp_ref_account_type (value);
+ALTER TABLE cft2j02.test.tpp_ref_product_register_type
+    ADD FOREIGN KEY (account_type) REFERENCES cft2j02.test.tpp_ref_account_type (value);
 
-CREATE TABLE IF NOT EXISTS tpp_product_register
+CREATE TABLE IF NOT EXISTS cft2j02.test.tpp_product_register
 (
     id             serial PRIMARY KEY,
     product_id     BIGINT,
@@ -44,10 +48,10 @@ CREATE TABLE IF NOT EXISTS tpp_product_register
     account_number VARCHAR(25)
 );
 
-ALTER TABLE tpp_product_register
-    ADD FOREIGN KEY (type) REFERENCES tpp_ref_product_register_type (value);
+ALTER TABLE cft2j02.test.tpp_product_register
+    ADD FOREIGN KEY (type) REFERENCES cft2j02.test.tpp_ref_product_register_type (value);
 
-CREATE TABLE IF NOT EXISTS account_pool
+CREATE TABLE IF NOT EXISTS cft2j02.test.account_pool
 (
     id                 serial PRIMARY KEY,
     branch_code        VARCHAR(50),
@@ -57,7 +61,7 @@ CREATE TABLE IF NOT EXISTS account_pool
     registry_type_code VARCHAR(50)
 );
 
-CREATE TABLE IF NOT EXISTS account
+CREATE TABLE IF NOT EXISTS cft2j02.test.account
 (
     id              serial PRIMARY KEY,
     account_pool_id BIGINT,
@@ -65,11 +69,11 @@ CREATE TABLE IF NOT EXISTS account
     bussy           BOOLEAN
 );
 
-ALTER TABLE account
-    ADD FOREIGN KEY (account_pool_id) REFERENCES account_pool (id);
+ALTER TABLE cft2j02.test.account
+    ADD FOREIGN KEY (account_pool_id) REFERENCES cft2j02.test.account_pool (id);
 --ON DELETE CASCADE;
 
-CREATE TABLE IF NOT EXISTS tpp_template_register_balance
+CREATE TABLE IF NOT EXISTS cft2j02.test.tpp_template_register_balance
 (
     id               serial PRIMARY KEY,
     register_id      BIGINT,
@@ -78,7 +82,7 @@ CREATE TABLE IF NOT EXISTS tpp_template_register_balance
     last_modify_date TIMESTAMP
 );
 
-CREATE TABLE IF NOT EXISTS tpp_product
+CREATE TABLE IF NOT EXISTS cft2j02.test.tpp_product
 (
     id                 serial PRIMARY KEY,
 --	agreement_id BIGINT,
@@ -101,7 +105,7 @@ CREATE TABLE IF NOT EXISTS tpp_product
     state              VARCHAR(50)
 );
 
-CREATE TABLE IF NOT EXISTS agreement
+CREATE TABLE IF NOT EXISTS cft2j02.test.agreement
 (
     id                                       serial PRIMARY KEY,
     product_id                               BIGINT,
@@ -128,7 +132,18 @@ CREATE TABLE IF NOT EXISTS agreement
     maximal_interest_rate_coefficient_action VARCHAR(50)
 );
 
-ALTER TABLE agreement
-    ADD FOREIGN KEY (product_id) REFERENCES tpp_product (id);
+ALTER TABLE cft2j02.test.agreement
+    ADD FOREIGN KEY (product_id) REFERENCES cft2j02.test.tpp_product (id);
 
-CREATE SEQUENCE IF NOT EXISTS table_id_seq;
+CREATE SEQUENCE IF NOT EXISTS cft2j02.test.table_id_seq;
+
+-- rollback drop table cft2j02.test.agreement;
+-- rollback drop table cft2j02.test.tpp_product;
+-- rollback drop table cft2j02.test.tpp_template_register_balance;
+-- rollback drop table cft2j02.test.account;
+-- rollback drop table cft2j02.test.account_pool;
+-- rollback drop table cft2j02.test.tpp_product_register;
+-- rollback drop table cft2j02.test.tpp_ref_product_register_type;
+-- rollback drop table cft2j02.test.tpp_ref_product_class;
+-- rollback drop table cft2j02.test.tpp_ref_account_type;
+-- rollback drop sequence cft2j02.test.table_id_seq;

@@ -14,8 +14,8 @@ public class ProductRegisterControllerTest {
     private final ProductRegisterService productRegisterServiceMock;
 
     public ProductRegisterControllerTest() {
-        productRegisterController = new ProductRegisterController();
         productRegisterServiceMock = Mockito.mock(ProductRegisterService.class);
+        productRegisterController = new ProductRegisterController(productRegisterServiceMock);
         productRegisterController.setProductRegisterService(productRegisterServiceMock);
     }
 

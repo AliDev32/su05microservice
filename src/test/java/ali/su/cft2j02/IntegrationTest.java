@@ -7,7 +7,11 @@ import ali.su.cft2j02.product.ProductController;
 import ali.su.cft2j02.product.messages.InstanceAgreement;
 import ali.su.cft2j02.product.messages.ProductRequest;
 import ali.su.cft2j02.product.messages.ProductResponse;
+import ali.su.cft2j02.repo.AgreementRepository;
+import ali.su.cft2j02.repo.ProductRegisterRepository;
+import ali.su.cft2j02.repo.ProductRepository;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,6 +29,17 @@ public class IntegrationTest {
     @Autowired
     private ProductRegisterController productRegisterController;
 
+
+    @BeforeEach
+    public void beforeEachTests(
+            @Autowired AgreementRepository agreementRepository,
+            @Autowired ProductRegisterRepository productRegisterRepository,
+            @Autowired ProductRepository productRepository
+                             ) {
+        agreementRepository.deleteAll();
+        productRegisterRepository.deleteAll();
+        productRepository.deleteAll();
+    }
 
     @Test
     @DisplayName("Создание Экземпляра Продукта")

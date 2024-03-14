@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @Slf4j
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
 @RequestMapping(path = "${rest.account-endpoint}", produces = "application/json")
 public class ProductRegisterController {

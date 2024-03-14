@@ -17,10 +17,10 @@ public class ProductControllerTest {
     private final AgreementService agreementServiceMock;
 
     public ProductControllerTest() {
-        productController = new ProductController();
-
         productServiceMock = Mockito.mock(ProductService.class);
         agreementServiceMock = Mockito.mock(AgreementService.class);
+
+        productController = new ProductController(productServiceMock, agreementServiceMock);
 
         productController.setProductService(productServiceMock);
         productController.setAgreementService(agreementServiceMock);
