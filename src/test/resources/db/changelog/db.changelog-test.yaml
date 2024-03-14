@@ -1,5 +1,0 @@
-databaseChangeLog:
-  - include:
-      file: db/changelog/changeset/create-test-schema_05.yaml
-  - include:
-      file: db/changelog/changeset/populate-test-schema_05.yaml
