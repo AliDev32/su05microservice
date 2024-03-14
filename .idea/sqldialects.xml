@@ -5,5 +5,7 @@
     <file url="file://$PROJECT_DIR$/res/materials/DB/скрипт_создания_БД.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/src/main/resources/db/changelog/changeset/create_schema_05.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/src/main/resources/db/changelog/changeset/populate_schema_05.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/db/changelog/changeset/create_test_schema_05.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/db/changelog/changeset/populate_test_schema_05.sql" dialect="PostgreSQL" />
   </component>
 </project>

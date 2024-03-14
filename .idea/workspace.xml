@@ -4,35 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcc24ebf-d284-420c-a07a-82b949be1cfe" name="Changes" comment="README.md">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/domain/StatusResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/mapping/Mappable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/mapping/ProductRequestMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/mapping/ProductRequestToProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/prodregister/CreateProdRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/prodregister/ProductRegisterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/prodregister/entity/ProductRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/prodregister/entity/ProductRegisterType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/prodregister/repo/ProductRegisterRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/prodregister/repo/ProductRegisterTypeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/product/CreateProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/product/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/product/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/product/entity/ProductClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/product/messages/InstanceAgreement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/product/messages/ProductRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/product/messages/ProductResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/product/repo/ProductClassRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/product/repo/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/tst/Dto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/tst/FirstController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/utils/Makeable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/utils/RequestValidator.java" afterDir="false" />
+    <list default="true" id="bcc24ebf-d284-420c-a07a-82b949be1cfe" name="Changes" comment="tests">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/db/changelog/changeset/create-test-schema_05.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/db/changelog/changeset/populate-test-schema_05.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/db/changelog/db.changelog-test.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/db/changelog/liquibase.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/3286eada-beea-423d-ae3d-b81f4316f3f4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3286eada-beea-423d-ae3d-b81f4316f3f4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3286eada-beea-423d-ae3d-b81f4316f3f4/storage_v2/_src_/database/cft2j02.ay6SKQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3286eada-beea-423d-ae3d-b81f4316f3f4/storage_v2/_src_/database/cft2j02.ay6SKQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/Starter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/agreement/AgreementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/agreement/AgreementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/prodregister/ProductRegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/prodregister/ProductRegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/prodregister/ProductRegisterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/prodregister/ProductRegisterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/product/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ali/su/cft2j02/product/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/changeset/create_schema_05.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changeset/create_schema_05.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/changeset/populate_schema_05.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changeset/populate_schema_05.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ali/su/cft2j02/IntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ali/su/cft2j02/IntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ali/su/cft2j02/agreement/AgreementServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ali/su/cft2j02/agreement/AgreementServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ali/su/cft2j02/prodregister/ProductRegisterControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ali/su/cft2j02/prodregister/ProductRegisterControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ali/su/cft2j02/prodregister/ProductRegisterServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ali/su/cft2j02/prodregister/ProductRegisterServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ali/su/cft2j02/product/ProductControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ali/su/cft2j02/product/ProductControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ali/su/cft2j02/product/ProductServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ali/su/cft2j02/product/ProductServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/db/changelog/changeset/populate_test_schema_05.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/db/changelog/changeset/create_test_schema_05.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +44,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -97,6 +97,8 @@
     &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
     &quot;HTTP Request.generated-requests | #2.executor&quot;: &quot;Run&quot;,
     &quot;HTTP Request.generated-requests | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #4.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AgreementServiceTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.DataDbSaverTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.DataDbSaverTest.saveToDB_newUser.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.DataDbSaverTest.saveToDB_onlyLogin.executor&quot;: &quot;Run&quot;,
@@ -104,7 +106,20 @@
     &quot;JUnit.DataFileReaderTest.load_emptyDir.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.DataFileReaderTest.load_invalidData.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.DataFileReaderTest.load_success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InstanceAgreementTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.IntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductRegRequestToProductRegMapperTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductRegisterControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductRegisterRequestTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductRegisterResponseTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductRegisterServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductRequestTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductRequestToProductMapperTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductResponseTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RequestValidatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ResponseMakerTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.WorkCheckAppTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.WorkCheckAppTest.typeAppl_NoOfRegisterList.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.WorkCheckAppTest.typeAppl_ofRegisterList.executor&quot;: &quot;Run&quot;,
@@ -124,7 +139,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/tor/workspace/java/works_bc_cursCFT2J_02/su05microservice/src/main/resources/db/changelog/changeset&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/tor/workspace/java/works_bc_cursCFT2J_02/su05microservice/src/test/resources&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -137,6 +152,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\tor\workspace\java\works_bc_cursCFT2J_02\su05microservice\src\test\resources" />
       <recent name="C:\tor\workspace\java\works_bc_cursCFT2J_02\su05microservice\src\main\resources\db\changelog\changeset" />
       <recent name="C:\tor\workspace\java\works_bc_cursCFT2J_02\su04spring\src\main\resources" />
     </key>
@@ -144,15 +160,16 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\tor\workspace\java\works_bc_cursCFT2J_02\su05microservice\src\test\resources\db" />
       <recent name="C:\tor\workspace\java\works_bc_cursCFT2J_02\su04spring" />
       <recent name="C:\tor\workspace\java\works_bc_cursCFT2J_02\su04spring\src\main\datafiles" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ali.su.cft2j02.repo" />
+      <recent name="ali.su.cft2j02.entity" />
       <recent name="ali.su.cft2j02.prodregister.entity" />
       <recent name="ali.su.cft2j02.product.messages" />
       <recent name="ali.su.cft2j02.domain" />
-      <recent name="ali.su.cft2j02.tst" />
-      <recent name="ali.su.cft2j02.datasaver" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ali.su.cft2j02" />
@@ -163,15 +180,54 @@
       <recent name="ali.su.cft2j02.config" />
     </key>
   </component>
-  <component name="RunManager" selected="HTTP Request.generated-requests | #3">
-    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.IntegrationTest">
     <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
       <method v="2" />
+    </configuration>
+    <configuration name="AgreementServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="su04spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ali.su.cft2j02.agreement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ali.su.cft2j02.agreement" />
+      <option name="MAIN_CLASS_NAME" value="ali.su.cft2j02.agreement.AgreementServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="su04spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ali.su.cft2j02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ali.su.cft2j02" />
+      <option name="MAIN_CLASS_NAME" value="ali.su.cft2j02.IntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResponseMakerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="su04spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ali.su.cft2j02.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ali.su.cft2j02.utils" />
+      <option name="MAIN_CLASS_NAME" value="ali.su.cft2j02.utils.ResponseMakerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Starter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="su04spring" />
@@ -188,10 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.generated-requests | #3" />
+        <item itemvalue="JUnit.IntegrationTest" />
         <item itemvalue="Spring Boot.Starter" />
-        <item itemvalue="HTTP Request.generated-requests | #2" />
-        <item itemvalue="HTTP Request.generated-requests | #1" />
+        <item itemvalue="HTTP Request.generated-requests | #3" />
+        <item itemvalue="JUnit.AgreementServiceTest" />
+        <item itemvalue="JUnit.ResponseMakerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -239,79 +296,10 @@
       <workItem from="1710138974332" duration="5001000" />
       <workItem from="1710151371424" duration="10165000" />
       <workItem from="1710232474806" duration="1576000" />
-      <workItem from="1710243115210" duration="4111000" />
-    </task>
-    <task id="LOCAL-00001" summary="initial commit">
-      <option name="closed" value="true" />
-      <created>1707580184474</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1707580184474</updated>
-    </task>
-    <task id="LOCAL-00002" summary="initial commit">
-      <option name="closed" value="true" />
-      <created>1707652781554</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1707652781555</updated>
-    </task>
-    <task id="LOCAL-00003" summary="initial commit">
-      <option name="closed" value="true" />
-      <created>1707653296139</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1707653296139</updated>
-    </task>
-    <task id="LOCAL-00004" summary="based on ConcurrentHashMap with debug">
-      <option name="closed" value="true" />
-      <created>1708013396154</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1708013396154</updated>
-    </task>
-    <task id="LOCAL-00005" summary="based on ConcurrentHashMap clean debug">
-      <option name="closed" value="true" />
-      <created>1708013777609</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1708013777609</updated>
-    </task>
-    <task id="LOCAL-00006" summary="based on ConcurrentHashMap clean debug">
-      <option name="closed" value="true" />
-      <created>1708013849773</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1708013849773</updated>
-    </task>
-    <task id="LOCAL-00007" summary="manual sync with debug">
-      <option name="closed" value="true" />
-      <created>1708097860525</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1708097860525</updated>
-    </task>
-    <task id="LOCAL-00008" summary="manual sync clean debug">
-      <option name="closed" value="true" />
-      <created>1708097996280</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1708097996280</updated>
-    </task>
-    <task id="LOCAL-00009" summary="based on ConcurrentHashMap clean debug">
-      <option name="closed" value="true" />
-      <created>1708098078746</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1708098078746</updated>
+      <workItem from="1710243115210" duration="10830000" />
+      <workItem from="1710310219276" duration="2247000" />
+      <workItem from="1710330617112" duration="13815000" />
+      <workItem from="1710397137322" duration="7835000" />
     </task>
     <task id="LOCAL-00010" summary="based on ConcurrentHashMap with debug">
       <option name="closed" value="true" />
@@ -601,7 +589,111 @@
       <option name="project" value="LOCAL" />
       <updated>1710157232519</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="adv">
+      <option name="closed" value="true" />
+      <created>1710249512883</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1710249512883</updated>
+    </task>
+    <task id="LOCAL-00047" summary="IDEA service files">
+      <option name="closed" value="true" />
+      <created>1710249579938</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1710249579938</updated>
+    </task>
+    <task id="LOCAL-00048" summary="adv">
+      <option name="closed" value="true" />
+      <created>1710251731750</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1710251731750</updated>
+    </task>
+    <task id="LOCAL-00049" summary="adv">
+      <option name="closed" value="true" />
+      <created>1710252334412</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1710252334412</updated>
+    </task>
+    <task id="LOCAL-00050" summary="adv">
+      <option name="closed" value="true" />
+      <created>1710255947034</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1710255947035</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Autowired excluded">
+      <option name="closed" value="true" />
+      <created>1710331818598</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1710331818599</updated>
+    </task>
+    <task id="LOCAL-00052" summary="method rename">
+      <option name="closed" value="true" />
+      <created>1710332056255</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1710332056255</updated>
+    </task>
+    <task id="LOCAL-00053" summary="method rename">
+      <option name="closed" value="true" />
+      <created>1710332110497</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1710332110497</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Column annotation cleaned">
+      <option name="closed" value="true" />
+      <created>1710340990629</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1710340990629</updated>
+    </task>
+    <task id="LOCAL-00055" summary="pom">
+      <option name="closed" value="true" />
+      <created>1710341014645</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1710341014645</updated>
+    </task>
+    <task id="LOCAL-00056" summary="script">
+      <option name="closed" value="true" />
+      <created>1710341038004</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1710341038004</updated>
+    </task>
+    <task id="LOCAL-00057" summary="script 4 h2">
+      <option name="closed" value="true" />
+      <created>1710344593762</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1710344593762</updated>
+    </task>
+    <task id="LOCAL-00058" summary="tests">
+      <option name="closed" value="true" />
+      <created>1710344850910</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1710344850910</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,13 +719,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MapStringTabDelimitedToData renamed to MapTabDelimitedStringToData" />
-    <MESSAGE value="pom fix" />
-    <MESSAGE value="datafiles path config" />
-    <MESSAGE value="List&lt;Data&gt; to var" />
-    <MESSAGE value="attach spring-data-jdbc in pom" />
-    <MESSAGE value="move to SpringDataJPA + testRepo classes" />
-    <MESSAGE value="liquibase, db schema, dto" />
     <MESSAGE value="DataDBSaver, some refactoring" />
     <MESSAGE value="MiddleWorkers" />
     <MESSAGE value="Source Data Files" />
@@ -647,12 +732,19 @@
     <MESSAGE value="Starter on interfaces" />
     <MESSAGE value="clean" />
     <MESSAGE value="ignoring and logging bad format rows" />
-    <MESSAGE value="tests" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="pom, liquibase init db schema" />
-    <MESSAGE value="IDEA service files" />
     <MESSAGE value="README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md" />
+    <MESSAGE value="IDEA service files" />
+    <MESSAGE value="adv" />
+    <MESSAGE value="Autowired excluded" />
+    <MESSAGE value="method rename" />
+    <MESSAGE value="Column annotation cleaned" />
+    <MESSAGE value="pom" />
+    <MESSAGE value="script" />
+    <MESSAGE value="script 4 h2" />
+    <MESSAGE value="tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/su04spring$DataFileReaderTest.ic" NAME="DataFileReaderTest Coverage Results" MODIFIED="1709896575411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
