@@ -1,0 +1,25 @@
+version: '13.3'
+services:
+  product_srv:
+    container_name: product_srv
+    image: cft2j02-task05-app:latest
+    environment: {}
+    ports:
+      - 8080:8080
+    depends_on:
+      - product_srv_db
+  
+  product_srv_db:
+    container_name: product_srv_db
+    image: postgres:latest
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: pass
+      POSTGRES_USER: pguser
+      POSTGRES_DB: cft2j02
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata: {}
